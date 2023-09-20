@@ -9857,6 +9857,7 @@ a.text-dark:hover, a.text-dark:focus {
     background: #FFF;
   }
   
+<<<<<<< HEAD
   .card {
     position: relative;
     width: 350px;
@@ -9946,4 +9947,44 @@ a.text-dark:hover, a.text-dark:focus {
     .container-anuncios {
       flex-direction: column;
     }
+=======
+  .contain-ig {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .contain-ig:Before {
+    content: '';
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    background: #fff;
+    opacity: 0;
+    transition: opacity .1s ease-out;   
+  }
+  .contain-ig:hover:before {
+    opacity: 1;
+  }
+
+  .contain-ig .IG-logo  {
+    width: inherit;
+    padding: 5px 15px;
+    color: #444;
+    position: absolute;
+    top: 100%;
+  }
+
+  .contain-ig:hover .IG-logo {
+    top: 0;
+  }
+
+  .contain_ig img {
+    width: 100%;
+    transition:all .3s ease-in-out;
+  }
+
+  .container_IG img:hover {
+    filter: blur(4px);
+>>>>>>> b537111179c00d88d5739737796df6c30bc4833f
   }
