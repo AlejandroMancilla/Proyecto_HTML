@@ -9856,8 +9856,6 @@ a.text-dark:hover, a.text-dark:focus {
     min-height: 100vh;
     background: #FFF;
   }
-  
-<<<<<<< HEAD
   .card {
     position: relative;
     width: 350px;
@@ -9947,7 +9945,7 @@ a.text-dark:hover, a.text-dark:focus {
     .container-anuncios {
       flex-direction: column;
     }
-=======
+
   .contain-ig {
     position: relative;
     overflow: hidden;
@@ -9986,5 +9984,4 @@ a.text-dark:hover, a.text-dark:focus {
 
   .container_IG img:hover {
     filter: blur(4px);
->>>>>>> b537111179c00d88d5739737796df6c30bc4833f
   }
